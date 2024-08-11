@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const useResize = () => {
   const [is480, setIs480] = useState(false);
   const [is768, setIs768] = useState(false);
-  const [is1024, set1024] = useState(false);
+  const [is1024, set1024] = useState(true);
   const [is1280, setIs1280] = useState(false);
 
   useEffect(() => {
