@@ -60,6 +60,7 @@ const Main = () => {
               className="block w-[100%] h-auto"
               width={736}
               height={883}
+              priority
             />
           </div>
           :
@@ -70,6 +71,7 @@ const Main = () => {
               className="block w-[100%] h-auto"
               width={736}
               height={883}
+              priority
             />
           </div>
         }
