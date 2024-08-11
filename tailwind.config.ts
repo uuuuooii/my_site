@@ -8,11 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        moveUp: 'moveUp 0.5s ease forwards',
+      },
+      keyframes: {
+        moveUp: {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+      },
       scale: {
         '200': '2', // y축으로 2배 확장
-      },
-      fontSize: {
-        '400px': '400px',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

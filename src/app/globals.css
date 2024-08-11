@@ -19,10 +19,10 @@
 }
 
 body {
-  max-height: 1080px;
-  overflow: hidden;
   color: rgb(var(--foreground-rgb));
   background: #2277ff;
+  max-height: 1080px;
+  overflow: hidden;
 }
 
 @layer utilities {
