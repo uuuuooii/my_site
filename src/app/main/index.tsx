@@ -46,13 +46,13 @@ const useResize = () => {
 };
 
 const Main = () => {
-  const { is1024 } = useResize();
+  const { is768, is1024 } = useResize();
 
   return (
     <main>
       <Info />
       <div>
-        {is1024 ?
+        {is768 ?
           <div className="absolute w-[100%]  bottom-0 left-1/2 transform -translate-x-1/2 z-10">
             <Image
               src={'/images/women_m.png'}
