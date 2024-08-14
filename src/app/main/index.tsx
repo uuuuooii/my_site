@@ -64,11 +64,11 @@ const Main = () => {
             />
           </div>
           :
-          <div className="absolute w-[45%]  bottom-0 left-1/2 transform -translate-x-1/2 z-10">
+          <div className="absolute w-[45%] bottom-0 left-1/2 transform -translate-x-1/2 z-10">
             <Image
               src={'/images/women.png'}
               alt="women"
-              className="block w-[100%] h-auto"
+              className="block w-[100%] max-w-[700px] h-auto"
               width={736}
               height={883}
               priority
@@ -89,7 +89,7 @@ const Main = () => {
                   <li
 
                     key={index}
-                    className={`inline-block animate-moveUp`}
+                    className={`inline-block animate-moveUp text-white`}
                     style={{
                       animationDelay: `${index * 0.1}s`,
                     }}

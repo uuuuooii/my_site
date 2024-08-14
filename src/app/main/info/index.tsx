@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Info = () => {
   return (
-    <div className="absolute sm:top-[35%] top-[1%] left-[5%] grid w-[300px] ">
+    <div className="absolute sm:top-[35%] top-[1%] left-[5%] grid w-[300px] text-white">
       <p>EunHye Kim</p>
       <p>Web Frontend Software Engineer</p>
       <p>Github:
